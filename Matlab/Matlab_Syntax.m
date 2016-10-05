@@ -40,8 +40,7 @@ fprintf('3.3 \t 300\n')
 vector = []; % empty vector
 vector = [1 2 3 4];
 vector = [1, 2, 3, 4];
-vector = linspace(1,10,10); % is [1 2 3 4 5 6 7 8 9 10]
-vector = linspace(1,100); % returns 100 evenly spaced entries from 1 to 100
+vector = linspace(1,9,5); % is [1 3 5 7 9]
 vector = (1:2:10); % returns [1 3 5 7 9]
 element = vector(2); % returns 3
 
