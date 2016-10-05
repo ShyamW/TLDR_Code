@@ -111,6 +111,9 @@ end
 
 
 %looping TBA
+%nested looping TBA
+% functions TBA
+% Plotting TBA
 
 
 
