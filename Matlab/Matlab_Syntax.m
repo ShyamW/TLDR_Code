@@ -49,10 +49,11 @@ vector = [1;2;3;4]; % [1; 2; 3; 4]
 
 
 % booleans
-iKnowSomeMatlab = true; % note, any number greater than 0 is true
-iKnowAllMatlab = false; % note, any number less than 1 is false
+iKnowSomeMatlab = true; % note, any number other than 0 is true
+iKnowAllMatlab = false; % note, any number not zer0 is true
 gonnaBeFalse = 1<5 & 5<1;
 gonnaBeTrue = 1>10 || 1>0;
+gonnaBeTrue = ~false;
 
 
 % simple branching
@@ -89,7 +90,7 @@ end
 
 
 % Complex branching
-if 1<2 && 1<5 || 0
+if 1<2 && ~5<1 || 0
     if 1<9 || 9>10
         disp('Printed');
     elseif 1<9
