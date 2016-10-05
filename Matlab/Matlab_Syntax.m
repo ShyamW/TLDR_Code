@@ -89,7 +89,7 @@ end
 
 
 % Complex branching
-if 1<2 && 1<5 || 1
+if 1<2 && 1<5 || 0
     if 1<9 || 9>10
         disp('Printed');
     elseif 1<9
