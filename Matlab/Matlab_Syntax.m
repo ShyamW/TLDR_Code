@@ -27,7 +27,8 @@ name = 'John';
 disp('printed');
 disp(name);
 fprintf('printed %s \n', 'name'); % print string and variable and nextline
-fprintf('Pi is %.3f and can be approximated with %d\n',pi,approx);
+% prints 'Pi is 3.14 and can be approximated with 3'
+fprintf('Pi is %.3f and can be approximated with %d\n', pi, approx); 
 
 
 % Table Output
@@ -42,11 +43,18 @@ vector = [1, 2, 3, 4];
 vector = linspace(1,10,10); % is [1 2 3 4 5 6 7 8 9 10]
 vector = linspace(1,100); % returns 100 evenly spaced entries from 1 to 100
 vector = (1:2:10); % returns [1 3 5 7 9]
+element = vector(2); % returns 3
 
 
 % column vectors (n dimensional arrays)
 vector = vector'; % column vector of row vector [1;3;5;7;9]
 vector = [1;2;3;4]; % [1; 2; 3; 4]
+element = vector(3); % returns 3
+
+% Matrices (2d arrays)
+matrix = [1, 2, 3; 4, 5, 6];
+matrix = [linspace(1,6,1); (1:1:6)];
+element = matrix(1,1); % accesses first row, first column in above matrix
 
 
 % booleans
@@ -91,7 +99,7 @@ end
 
 
 % Complex branching
-if 1<2 && ~5<1 || 0
+if (1<2 && ~5<1) || 0
     if 1<9 || 9>10
         disp('Printed');
     elseif 1<9
