@@ -12,6 +12,7 @@ multiline comment
 variable = 5;
 variable = 1+4;
 variable = 5 * 1;
+variable = 100 / 20;
 variable = 5^1;
 variable = sqrt(25);
 variable = 3.145926;
