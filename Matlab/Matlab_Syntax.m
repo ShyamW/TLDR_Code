@@ -59,7 +59,7 @@ element = matrix(1,1); % accesses first row, first column in above matrix
 % booleans
 iKnowSomeMatlab = true; % note, any number other than 0 is true
 iKnowAllMatlab = false; % note, any number not zer0 is true
-gonnaBeFalse = 1<5 & 5<1;
+gonnaBeFalse = 1<5 && 5<1;
 gonnaBeTrue = 1>10 || 1>0;
 gonnaBeTrue = ~false;
 
