@@ -136,6 +136,24 @@ for i=1:1:3
   fprintf('\n')
 end
 
+% Plotting 
+time = [0 1 2 3 4 5 6 7 8 9 10];
+temperature = (300:10:400);
+sound = linspace(400,300,11);
+wind = [0 3 7 9 9.1 9.9 9.9 9.9 9.9 10 10];
+water = [0 10 50 100 400 20 40 50 20 40 60];
+plot(time, temperature, 'x'); % scatter with x
+hold on;
+plot(time, sound, 'o'); % scatter with o
+hold on;
+plot(time, wind, '-r') % red line
+hold on;
+plot(time, water, '-b') % blue line
+xlabel('Time (in seconds)');
+ylabel('ALOT OF STUFF');
+title('Title');
+legend('temp','sound', 'wind', 'water');
+
 
 % Functions
 mean = calcVectorMean([1,2], 2);    % calling mean function
@@ -151,5 +169,3 @@ function dispVector(v)
     end
     fprintf('\n')
 end
-
-% Plotting TBA
