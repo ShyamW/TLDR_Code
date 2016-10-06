@@ -138,7 +138,7 @@ end
 
 
 % Plotting 
-time = (0:10:1);
+time = (0:1:10);
 temperature = (300:10:400);
 sound = linspace(400,300,11);
 wind = [0 3 7 9 9.1 9.9 9.9 9.9 9.9 10 10];
