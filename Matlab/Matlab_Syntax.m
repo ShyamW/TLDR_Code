@@ -1,12 +1,12 @@
-%%%MATLAB SYNTAX GUIDE %% by Shyam Thiagarajan%
+% || MATLAB SYNTAX GUIDE || by Shyam Thiagarajan |
 
 % This is a single line comment
 
-%{ 
-This is a 
-multiline comment 
+%{
+This is a
+multiline comment
 %}
-    
+
 
 % variable syntax and basic operators
 variable = 5;
@@ -28,7 +28,7 @@ disp('printed');
 disp(name);
 fprintf('printed %s \n', 'name'); % print string and variable and nextline
 % prints 'Pi is 3.14 and can be approximated with 3'
-fprintf('Pi is %.3f and can be approximated with %d\n', pi, approx); 
+fprintf('Pi is %.3f and can be approximated with %d\n', pi, approx);
 
 
 % Table Output
@@ -68,19 +68,19 @@ gonnaBeTrue = ~false;
 if true
     disp('printed');
 end
-%------------------------------------------------------------
+
 if false
     disp('not printed');
 end
-%------------------------------------------------------------
+
 if -100
     disp('printed, only zero is false');
 end
-%------------------------------------------------------------
+
 if 5
     disp('printed, only zero is false');
 end
-%------------------------------------------------------------
+
 if 0
     disp('Not Printed, Zero is false');
 end
@@ -109,17 +109,30 @@ else
 end
 
 
-%looping TBA
-%nested looping TBA
+% Looping
+    % The following loop displays 0 1 2 3 4 5 6 7 8 9
+for i=0:1:9
+    disp(i)
+end
+
+    % A simple countdown: prints 3 2 1
+countDown = 3;
+while(countDown > 0)
+   disp(countDown);
+   countDown = countDown - 1;
+end
+
+
+%nested looping
+    % displays the matrix to the screen
+a=[1 2 3; 4 5 6; 7 8 9];
+for i=1:1:3
+  for j=1:1:3
+    element = a(i,j);
+    fprintf(' %d ', element);
+  end
+  fprintf('\n')
+end
+
 % functions TBA
 % Plotting TBA
-
-
-
-
-
-
-
-
-
-
