@@ -144,7 +144,7 @@ sound = linspace(400,300,11);
 wind = [0 3 7 9 9.1 9.9 9.9 9.9 9.9 10 10];
 water = [0 10 50 100 400 20 40 50 20 40 60];
 plot(time, temperature, 'x'); % scatter with x
-hold on;
+hold on; % I have more stuff to plot
 plot(time, sound, 'o'); % scatter with o
 hold on;
 plot(time, wind, '-r') % red line
