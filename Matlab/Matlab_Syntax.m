@@ -136,6 +136,7 @@ for i=1:1:3
   fprintf('\n')
 end
 
+
 % Plotting 
 time = [0 1 2 3 4 5 6 7 8 9 10];
 temperature = (300:10:400);
