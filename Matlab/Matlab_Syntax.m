@@ -123,7 +123,7 @@ while(countDown > 0)
 end
 
 
-%nested looping
+% nested looping
     % displays the matrix to the screen
 a=[1 2 3; 4 5 6; 7 8 9];
 for i=1:1:3
