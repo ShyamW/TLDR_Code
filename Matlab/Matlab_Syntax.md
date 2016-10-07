@@ -41,6 +41,7 @@ load data from file into matrix
 ```
 ---
 ### Output
+prints string in ()
 ```matlab
         disp('printed');
         disp(name);
