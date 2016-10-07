@@ -23,6 +23,11 @@ approx = 3;
 name = 'John';
 
 
+% input
+name = input('What is your Name')  % ask user for name, store in name
+data = load('data.dat') % load data from data.dat into data matrix
+
+
 % Output
 disp('printed');
 disp(name);
