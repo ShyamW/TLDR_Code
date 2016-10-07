@@ -107,7 +107,7 @@ access second row, first column of matrix
 ```matlab 
         element = matrix(2,1); 
 ```
-Squares each element in the matrix; dot operator forces Matlab to treat matrix as a collection of elements, not actual matrix.
+Squares each element in the matrix; dot operator forces Matlab to do calculations on each element.
 ```matlab 
         matrix = matrix.^2; 
 ```
