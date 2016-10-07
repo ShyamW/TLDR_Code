@@ -148,7 +148,7 @@ Squares each element in the matrix; dot operator forces Matlab to do calculation
         end
 ```
 ---
-### if, elif, else branching
+### if, elseif, else branching
 if is checked first, else checked last
 ```matlab 
         magicNumber = 7;
