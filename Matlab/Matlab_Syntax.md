@@ -64,7 +64,7 @@ To print row of data
         fprintf('3.3 \t 300\n')
 ```
 ---
-### row vectors (arrays)
+### Row Vectors (arrays)
 Empty vector
 ```matlab
         vector = []; 
@@ -81,7 +81,7 @@ accessing 2nd element from vector
         element = vector(2); % returns 2
 ```
 ---
-### column vectors (n dimensional arrays)
+### Column Vectors (n dimensional arrays)
 transpose row vector
 ```matlab
         vector = vector';
@@ -106,6 +106,10 @@ make [1 2 3; 4 5 6]
 access second row, first column of matrix
 ```matlab 
         element = matrix(2,1); 
+```
+Squares each element in the matrix; dot operator forces Matlab to treat matrix as a collection of elements, not actual matrix.
+```matlab 
+        matrix = matrix.^2; 
 ```
 ---
 ### Booleans
