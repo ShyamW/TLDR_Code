@@ -3,25 +3,25 @@
 
 ### Comments
 ```matlab
-    % This is a single line comment
-    
-    %{
-    This is a
-    multiline comment
-    %}
+        % This is a single line comment
+        
+        %{
+        This is a
+        multiline comment
+        %}
 ```
 
 ### Basic Operators and Variable Syntax
 ```matlab
-    variable = 5;
-    variable = 1 + 4;
-    variable = 5 - 1;
-    variable = 5 * 1;
-    variable = 100 / 20;
-    variable = 5^1;
-    variable = sqrt(25);
-    variable = 3.145926;
-    approx = 3;
+        variable = 5;
+        variable = 1 + 4;
+        variable = 5 - 1;
+        variable = 5 * 1;
+        variable = 100 / 20;
+        variable = 5^1;
+        variable = sqrt(25);
+        variable = 3.145926;
+        approx = 3;
 ```
 
 ### Strings
