@@ -197,7 +197,7 @@ displays the matrix to the screen
         a=[1 2 3; 4 5 6; 7 8 9];
         for i=1:1:3
             for j=1:1:3
-                element = a(i,j);
+                element = a(i,j);       % access ith row, jth column
                 fprintf(' %d ', element);
             end
             fprintf('\n')
