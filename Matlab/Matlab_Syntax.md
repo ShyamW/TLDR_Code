@@ -255,7 +255,7 @@ calling dispVector function
  ```matlab
         function dispVector(v)
             for i=1:1:length(v)
-                fprintf('% i ', v(i))
+                fprintf(' %i ', v(i))
             end
             fprintf('\n')
         end
