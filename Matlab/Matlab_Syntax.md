@@ -10,7 +10,7 @@
         multiline comment
         %}
 ```
-
+---
 ### Basic Operators and Variable Syntax
 ```matlab
         variable = 5;
@@ -23,15 +23,13 @@
         variable = 3.145926;
         approx = 3;
 ```
-
+---
 ### Strings
 Note: single quotes are always used for strings
 ```matlab
         name = 'John';
 ```
-
-
-
+---
 ### Input
 ask user for name, store in variable name
 ```matlab
@@ -41,7 +39,7 @@ load data from file into matrix
 ```matlab
         data = load('data.dat')     
 ```
-
+---
 ### Output
 ```matlab
         disp('printed');
@@ -55,7 +53,7 @@ prints 'Pi is 3.14 and can be approximated with 3'
 ```matlab
         fprintf('Pi is %.3f and can be approximated with %d\n', pi, approx);
 ```
-
+---
 ### Table Output
 To print table header
 ```matlab
@@ -65,7 +63,7 @@ To print row of data
 ```matlab
         fprintf('3.3 \t 300\n')
 ```
-
+---
 ### row vectors (arrays)
 Empty vector
 ```matlab
@@ -82,7 +80,7 @@ accessing 2nd element from vector
 ```matlab
         element = vector(2); % returns 2
 ```
-
+---
 ### column vectors (n dimensional arrays)
 transpose row vector
 ```matlab
@@ -96,6 +94,7 @@ acessing 3rd element from vector
 ```matlab    
         element = vector(3); 
 ```
+---
 ### Matrices (2d arrays)
 make [1 2 3; 4 5 6]
 ```matlab      
@@ -108,8 +107,7 @@ access second row, first column of matrix
 ```matlab 
         element = matrix(2,1); 
 ```
-
-
+---
 ### Booleans
 ```matlab
         iKnowSomeMatlab = true; % note, any number other than 0 is true
@@ -118,7 +116,7 @@ access second row, first column of matrix
         gonnaBeTrue = 1>10 || 1>0;
         gonnaBeTrue = ~false;
 ```
-
+---
 ### Simple Branching
 ```matlab
         if true
@@ -145,7 +143,7 @@ access second row, first column of matrix
             disp('Not Printed, Zero is false');
         end
 ```
-
+---
 ### if, elif, else branching
 if is checked first, else checked last
 ```matlab 
@@ -158,7 +156,7 @@ if is checked first, else checked last
             disp('Printed');
         end
 ```
-
+---
 ### Complex branching
 ```matlab
         if (1<2 && ~5<1) || 0
@@ -171,7 +169,7 @@ if is checked first, else checked last
             disp('Not Printed since line 102 true');
         end
 ```
-
+---
 ### Looping
 The following loop displays 0 1 2 3 4 5 6 7 8 9
 ```matlab
@@ -188,7 +186,7 @@ A simple countdown: prints 3 2 1
             countDown = countDown - 1;
         end
 ```
-
+---
 ### Nested looping
 displays the matrix to the screen
 ```matlab
@@ -201,9 +199,9 @@ displays the matrix to the screen
             fprintf('\n')
         end
 ```
-
+---
 ### Plotting 
-*Plots temperature, sound, wind, and water vs time*
+Initialize Data
 ```matlab
         time = (0:1:10);
         temperature = (300:10:400);
@@ -211,26 +209,26 @@ displays the matrix to the screen
         wind = [0 3 7 9 9.1 9.9 9.9 9.9 9.9 10 10];
         water = [0 10 50 100 400 20 40 50 20 40 60];
 ```
-*plot one function*
+Plot temperature data
 ```matlab
         plot(time, temperature, 'x'); % scatter with x
         hold on; % I have more stuff to plot
 ```
-*plot second function*
+Plot sound data
 ```matlab
         plot(time, sound, 'o'); % scatter with o
         hold on;
 ```    
-*plot third function*
+Plot wind data
 ```matlab
         plot(time, wind, '-r') % connected red line
         hold on;
 ```    
-*plot fourth function*
+Plot water data
 ```matlab
         plot(time, water, '-b') % connected blue line
 ```
-*add axis, titles, and legend*
+Add axis, titles, and legend
 ```matlab
         xlabel('Time (in seconds)');
         ylabel('ALOT OF STUFF');
