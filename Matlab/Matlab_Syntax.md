@@ -239,21 +239,21 @@ displays the matrix to the screen
 ```
 
 ### Functions
-*calling mean function*
+calling mean function
 ```matlab
         mean = calcVectorMean([1,2], 2);
 ```    
-*mean function*
+**mean function**
 ```matlab    
          function mean = calcVectorMean(v, n)
             mean = sum(v)/n;
          end
 ```     
-*calling dispVector function*
+calling dispVector function
 ```matlab 
         dispVector([1 2 3]);    % calling disp vector function
  ```    
-*dispVector function*
+**dispVector function**
  ```matlab
         function dispVector(v)
             for i=1:1:length(v)
