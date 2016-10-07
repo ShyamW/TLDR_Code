@@ -233,9 +233,9 @@ Add axis, titles, and legend
         xlabel('Time (in seconds)');
         ylabel('ALOT OF STUFF');
         title('Title');
-        legend('temp','sound', 'wind', 'water');
+        legend('temp','sound', 'wind', 'water'); % notice, same order as plotted
 ```
-
+---
 ### Functions
 calling mean function
 ```matlab
