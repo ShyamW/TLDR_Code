@@ -165,7 +165,7 @@ if is checked first, else checked last
 ### Complex branching
 ```matlab
         if (1 < 2 && ~(5 < 1)) || 0
-            if 1<9 || 9>10
+            if 1 < 9 || 9 > 10
                 disp('Printed');
             elseif 1<9
                 disp('Not Printed, since line 101 true');
