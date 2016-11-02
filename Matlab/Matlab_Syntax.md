@@ -82,7 +82,7 @@ accessing 2nd element from vector
         element = vector(2); % returns 2
 ```
 ---
-### Column Vectors (n dimensional arrays)
+### Column Vectors (vertical arrays)
 transpose row vector
 ```matlab
         vector = vector';
@@ -111,6 +111,10 @@ access second row, first column of matrix
 Squares each element in the matrix; dot operator forces Matlab to do calculations on each element.
 ```matlab 
         matrix = matrix.^2; 
+```
+Accesses the third element in the matrix (third row, first column)
+```matlab 
+        third = matrix(3); 
 ```
 ---
 ### Booleans
