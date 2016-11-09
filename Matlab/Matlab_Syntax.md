@@ -172,7 +172,7 @@ if is checked first, else checked last
             if 1 < 9 || 9 > 10
                 disp('Printed');
             elseif 1<9
-                disp('Not Printed, since line 101 true');
+                disp('Not Printed, since above condition is true');
             end
         else
             disp('Not Printed since line 102 true');
