@@ -1,7 +1,10 @@
 ##  MATLAB SYNTAX GUIDE 
 by Shyam Thiagarajan 
 
+---
 #### In This Guide:
+
+
 
 [Comments](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#comments) 
 || [ Basic Operators](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#basic-operators-and-variable-syntax) 
@@ -20,6 +23,8 @@ by Shyam Thiagarajan
 
 [ Plotting](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#plotting) 
 || [ Functions](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#functions)
+---
+
 
 ### Comments
 ```matlab
