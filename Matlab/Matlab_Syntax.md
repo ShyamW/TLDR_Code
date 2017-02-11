@@ -1,5 +1,25 @@
 ##  MATLAB SYNTAX GUIDE 
-| by Shyam Thiagarajan |
+by Shyam Thiagarajan 
+
+#### In This Guide:
+
+[Comments](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#comments) 
+|| [ Basic Operators](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#basic-operators-and-variable-syntax) 
+|| [ Strings](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#strings) 
+
+[ Input](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#input) 
+|| [ Output](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#output) 
+|| [ Table Output](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#table-output) 
+
+[ Row Vectors](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#row-vectors-arrays) 
+||[ Column Vectors](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#column-vectors-vertical-arrays) 
+||[ Matrices](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#matrices-2d-arrays) 
+
+[ Booleans and Branching (if/else)](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#booleans) 
+|| [ Loops](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#if-elseif-else-branching)
+
+[ Plotting](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#plotting) 
+|| [ Functions](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#functions)
 
 ### Comments
 ```matlab
