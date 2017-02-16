@@ -78,7 +78,10 @@ print string and variable and nextline
 ```
 prints 'Pi is 3.14 and can be approximated with 3'
 ```matlab
-        fprintf('Pi is %.3f and can be approximated with %d\n', pi, approx);
+        Pi = 3.14159
+        approx = 3
+        # 3 digits ad 2 decimal numbers
+        fprintf('Pi is %3.2f and can be approximated with %d\n', pi, approx);
 ```
 ---
 ### Table Output
@@ -206,7 +209,7 @@ if is checked first, else checked last
 ```
 ---
 ### Looping
-The following loop displays 0 1 2 3 4 5 6 7 8 9
+The following loop displays 0 1 2 3 4 5 6 7 8 9. The loop starts at 0, steps by 1, and ends at 9
 ```matlab
         for i=0:1:9
             disp(i)
