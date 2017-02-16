@@ -80,7 +80,7 @@ prints 'Pi is 3.14 and can be approximated with 3'
 ```matlab
         Pi = 3.14159
         approx = 3
-        # 3 digits ad 2 decimal numbers
+        % 3 digits and 2 decimal numbers
         fprintf('Pi is %3.2f and can be approximated with %d\n', pi, approx);
 ```
 ---
