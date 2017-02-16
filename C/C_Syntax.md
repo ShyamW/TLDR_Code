@@ -98,7 +98,7 @@ make [1 2 3; 4 5 6]
         short iKnowAllMatlab = 0; // note, any number not 0 is true
         short gonnaBeFalse = 1 < 5 && 5 < 1;
         short gonnaBeTrue = 1 > 10 || 1 > 0;
-        gonnaBeTrue = ~1;
+        short gonnaBeTrue = ~1;
 ```
 ---
 ### Simple Branching
