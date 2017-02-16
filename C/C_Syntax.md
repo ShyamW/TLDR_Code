@@ -64,7 +64,7 @@ prints string in ()
 prints Harry to file
 ```c
         char * name = "Harry";
-        FILE *fp = fopen("filename","r"); // opens file for reading
+        FILE *fp = fopen("filename","w"); // opens file for reading
         fprintf(fp, "%s is the name", name);
 ```
 ---
@@ -178,6 +178,42 @@ displays the matrix to the screen
             end
             fprintf('\n')
         end
+```
+---
+### Plotting 
+Initialize Data
+```matlab
+        time = (0:1:10);
+        temperature = (300:10:400);
+        sound = linspace(400,300,11);
+        wind = [0 3 7 9 9.1 9.9 9.9 9.9 9.9 10 10];
+        water = [0 10 50 100 400 20 40 50 20 40 60];
+```
+Plot temperature data
+```matlab
+        plot(time, temperature, 'x'); % scatter with x
+        hold on; % I have more stuff to plot
+```
+Plot sound data
+```matlab
+        plot(time, sound, 'o'); % scatter with o
+        hold on;
+```    
+Plot wind data
+```matlab
+        plot(time, wind, '-r') % connected red line
+        hold on;
+```    
+Plot water data
+```matlab
+        plot(time, water, '-b') % connected blue line
+```
+Add axis, titles, and legend
+```matlab
+        xlabel('Time (in seconds)');
+        ylabel('ALOT OF STUFF');
+        title('Title');
+        legend('temp','sound', 'wind', 'water'); % notice, same order as plotted
 ```
 ---
 ### Functions
