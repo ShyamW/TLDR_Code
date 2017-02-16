@@ -1,4 +1,4 @@
-##  CSYNTAX GUIDE 
+##  C SYNTAX GUIDE 
 by Shyam Thiagarajan 
 
 ---
@@ -58,9 +58,12 @@ load data from file into matrix
 ---
 ### Output
 prints string in ()
-```matlab
-        disp('printed');
-        disp(name);
+```c
+        printf("printed");
+        char * name = "Harry";
+        FILE *fp = fopen("filename","r"); // opens file for reading
+        fprintf(fp, "%s is the name", name);
+        
 ```
 print string and variable and nextline
 ```matlab
