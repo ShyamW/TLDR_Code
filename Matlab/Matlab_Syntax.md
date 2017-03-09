@@ -145,6 +145,10 @@ Accesses the third element in the matrix (third row, first column)
 ```matlab 
         third = matrix(3); 
 ```
+Accesses the fourth element in the matrix (first row, second column)
+```matlab 
+        third = matrix(4); 
+```
 ---
 ### Booleans
 ```matlab
