@@ -8,8 +8,10 @@
  * Print the data to the screen (it is a nx2 matrix), use fprintf()
 	- print neatly as you would handwrite write a matrix
  * Create a vector called time from 0 to 10 with number of elements equal to the number of elements in the choice column. 	
-       - ex: if data is 2x3 matrix, time=[0,5,10].
+      - ex: if data is 2x3 matrix, time=[0,5,10].
  * Plot the choice column vs time.
+ 
+    - this an an opportunity to see all the different plotting possibilities: red, blue, green, black, scatter, dotted, line, etc
 
 ---
 ##### Sample Input:
