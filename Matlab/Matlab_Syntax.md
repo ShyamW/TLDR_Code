@@ -24,6 +24,8 @@ by Shyam Thiagarajan
 [ Plotting](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#plotting) 
 || [ Functions](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Matlab_Syntax.md#functions)
 
+[Practice_Problems](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/Practice_Problem_1.md)
+
 ---
 
 
