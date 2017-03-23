@@ -1,7 +1,7 @@
 ## Directions
 ##### Write a program that does exactly the following
 
- * Load data from [data.txt](https://github.com/ShyamW/TLDR_Code/tree/master/Matlab)
+ * Load data from [data.txt](https://github.com/ShyamW/TLDR_Code/blob/master/Matlab/data.txt)
  * Ask the user for a number, either 1 or 2 (we will call this choice)
  * Replace all elements of the choice column with choice, leaving the other column untouched
  	- There are many ways to do this. Try doing this with a for loop, a while loop, and with no loops (hardest).
